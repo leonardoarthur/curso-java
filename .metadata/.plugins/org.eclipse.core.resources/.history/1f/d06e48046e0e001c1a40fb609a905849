@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class Temperatura {
+	public static void main(String[] args) {
+	double tempf = 86;
+	double tempc = (tempf + 32) * 5/9.0;
+	System.out.println("A Temperatura é " + tempc);
+	
+	}
+}
